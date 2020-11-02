@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Регистрация"
+        android:textSize="28sp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:gravity="center"
+        android:hint="name"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/email"
+        android:gravity="center"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1" />
+    <EditText
+        android:id="@+id/password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="пароль"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1" />
+    <EditText
+        android:id="@+id/repeatPassword"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="повторите пароль"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/register"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Создать" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Уже есть аккаунт?" />
+
+</LinearLayout>
